@@ -1,0 +1,176 @@
+/* Estilos para el encabezado y fondo */
+body {
+  background-color: #000;
+  color: #fff;
+  /* Cambia el color de las letras a blanco */
+  text-align: center;
+}
+
+h1 {
+  margin-top: 150px;
+  /* Ajuste del margen superior para el letrero LOGIN */
+}
+
+h2 {
+  margin-top: 20px;
+  /* Aumentar el margen superior para el letrero EMAIL */
+}
+
+/* Estilos para el formulario */
+form {
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 40px;
+  /* Aumentar el margen superior para el formulario */
+  background-color: #1cb9b3;
+  /* Fondo verde agua */
+  padding: 20px;
+  border-radius: 10px;
+  /* Bordes redondeados */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+  /* Color de texto gris claro */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="submit"]:focus,
+select:focus {
+  outline: none;
+  /* Elimina el contorno al enfocar */
+  background-color: #555;
+  /* Cambia el color de fondo al enfocar */
+}
+
+input[type="submit"] {
+  background-color: #000;
+  /* Fondo negro */
+  color: #fff;
+  /* Texto blanco */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+  /* Cambio de color al pasar el mouse */
+}
+
+.imagen-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  /* Centra horizontalmente el contenedor */
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  /* Cambiado a relativo para posicionar la imagen de manera absoluta */
+}
+
+.imagen-facebook,
+.imagen-instagram,
+.imagen-twister {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8px;
+  /* Sube la imagen */
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+  /* Cambia el cursor al pasar sobre las imágenes */
+}
+
+.imagen-facebook {
+  left: 60px;
+  max-width: 100%;
+  height: auto;
+  /* Ajusta este valor según tu preferencia para mover la imagen hacia la derecha */
+}
+
+.imagen-instagram {
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen-twister {
+  left: 120px;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  /* Hace que la imagen sea un círculo */
+  overflow: hidden;
+  /* Oculta cualquier parte de la imagen que se salga del borde circular */
+  position: absolute;
+  top: 0px; /* Ajusta según sea necesario */
+  left: 0;
+  right: 0;
+}
+
+/* Estilos para la página de registro */
+body {
+  background-color: #000;
+  /* Fondo negro */
+  color: #fff;
+  /* Texto blanco */
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+  /* Espaciado superior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centrar horizontalmente */
+  position: relative;
+  /* Para referencia de posición absoluta */
+}
+
+h1 {
+  margin-bottom: 10px;
+  /* Espacio entre el título y el formulario */
+  margin-top: 0;
+  /* Modificado */
+}
+
+.image-container {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
